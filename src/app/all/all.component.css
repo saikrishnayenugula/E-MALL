@@ -1,0 +1,7 @@
+body{
+    background-color:rgb(29, 216, 216);
+}
+img:hover{
+    height:90%;
+    border: 5px #151816;
+}

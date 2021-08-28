@@ -1,0 +1,19 @@
+h1{
+    color: rgb(232, 228, 241);
+    background-color:rgb(17, 16, 16);
+    text-align: center;
+}
+.right
+{
+    display: flex;
+    margin-left: 600px;
+}
+#i1{
+    background-color: #3322ca;
+    color: rgb(228, 215, 225);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>E-MALL</h1>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="./assets/images/img28.jpg" alt="no img" class="rounded-circle" width='120px'height='50px'>
+  </a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+
+    <li class="nav-item">
+      <a class="nav-link" routerLink='/home'><i class="fas fa-home"></i>Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='/all'>All</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='/contactus'>Contactus</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink='/offers'>Offers</a>
+    </li>
+  
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink='/electronics' id="navbardrop" data-toggle="dropdown">
+        Electronics
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="electronics/mobilephones">Mobilephones</a>
+        <a class="dropdown-item" routerLink="electronics/laptops">Laptops</a>
+        <a class="dropdown-item" routerLink="electronics/watches">Watches</a>
+      </div>
+    </li>
+    <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="search">
+      <button type="submit" class="searchButton" id="i1">
+        
+        <i class="fa fa-search"></i>  
+     </button>
+   </div>
+</div>
+<div class="right">
+<li class="nav-item">
+  <a class="nav-link" routerLink='/signup'><i class="fas fa-user-plus"></i>Signup</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" routerLink='/login'><i class="fas fa-sign-in-alt"></i>Login</a>
+</li>
+</div>
+  </ul>
+</nav>
+
+
+<router-outlet></router-outlet>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
